@@ -1,0 +1,321 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body h2{
+    text-align: center;
+    color:#4a3284;
+    border:2px;
+    border-color:green;
+    font-family: Algerian;
+  
+
+}
+body{
+    padding: 5px;
+        
+    background-image : url('../Image/Web Background.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+   
+
+}
+/*--TOP HEADER START--*/
+/*--TOP HEADER END--*/
+
+/*--NAVEBAR SECTION START--*/
+#menu img{
+	height:50px;
+	width:50px;
+
+}
+
+.bg-light {
+    background-color: #bdbdbd!important;
+    }
+
+#menu.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(15 89 162);
+}    
+#menu.navbar-light .navbar-nav .nav-link {
+    color: rgb(55 112 169);
+}
+#menu.navbar-light .navbar-nav .nav-link:hover {
+    color:white;
+}
+#menu .dropdown-menu {
+	    background-color: #8aa4b6;
+	    margin-top: 17px;
+	}
+#menu .dropdown-item :hover {
+	    background-color: #3b74aa;
+	}
+/*--Seach button--*/
+
+.btn-outline-success :hpver{
+    color: #ffffff;
+    background-color:#3770a9; 
+    border-color: #3770a9;
+}
+
+.btn-outline-success {
+    color: #ffffff;
+    border-color: #3770a9;
+}
+
+
+/*--NAVEBAR SECTION END--*/
+
+/*--SLIDER SECTION START--*/
+ #slider .carouselExampleCaptions img{
+ 	padding-left:20px;
+ 	padding-right: 20px;
+ 	margin-left: 20px;
+ 	margin-right: 20px; 
+ }
+#slider img {
+    vertical-align: middle;
+    border-style: double;
+     
+}
+/*--SLIDER SECTION END--*/
+
+/*--ABOUT US START--*/
+#about_us{
+background-color: #6e96b2;
+padding: 20px;
+}
+#about_us img{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 300px;
+}
+/*--ABOUT US END--*/
+
+/*--PROGRESS BAR START--*/
+.progress_bar{
+    background-color:#7ca5c1 ;
+}
+.progress{
+    margin: 20px;
+   
+}
+ h5{
+
+    margin-left: 30px;
+    color:lightgray;
+}
+/*--PROGRESS BAR END--*/
+
+/*--TEAM MEMBER START--*/
+#team_member img{
+    height: 300px;
+    width:300px; 
+    border-radius:100%;
+    border: #8ba4b6 solid 5px;
+    margin-bottom: 15px;     
+}
+#team_member img:hover{
+    border-radius:100%;
+    border:#3770a9 solid 5px;
+    height: 350px;
+    width:350px;
+}
+#team_member .text {
+    padding: 0.5px 5px;
+    color: #3b616b;
+
+}
+#team_member .text:hover{
+    color:blue;
+}
+
+#team_member .col-md-3:hover{
+    border:blue solid 4.5px;
+
+}
+#team_member{
+    padding: 5px;
+   background-color:  #7ca5c1;
+}
+/*--TEAM MEMBER END--*/
+
+/*--OUR PRICING TABLE us START--*/
+
+#pricing_table{
+    border: 20px double #a5b9b5;
+    padding: 100px;
+    margin: 100px;
+    text-align: center;
+    background-color: #7ca5c1;
+    font-family:poppins;
+
+
+
+}
+#pricing_table .col-md-4{
+    background-color :#575773;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#pricing_table .pric-menu1{
+    border:white solid 2px ;
+    border-radius: 50px;
+    box-shadow: 1px 1px;
+    height: 550px;
+    width: 150px;    
+
+}
+#pricing_table .pric-menu1:hover{
+    background-color:#8383f5 ;
+    margin-bottom:20px;
+    height:600px;
+    transition: 0.7s;
+
+}
+#pricing_table .pric-menu2{
+    border:white solid 2px;
+    border-radius: 50px;
+    box-shadow: 1px 1px;
+    height:550px;
+    width: 150px;
+}
+#pricing_table .pric-menu2:hover{
+    background-color:#8383f5 ;
+    margin-bottom:20px;
+    height:600px;
+    transition: 0.7s;
+}
+#pricing_table .pric-menu3{
+    border:white solid 2px;
+    border-radius: 50px;
+    box-shadow: 1px 1px;
+    height:550px;
+    width: 150px;
+}
+#pricing_table .pric-menu3:hover{
+    background-color:#8383f5 ;
+    margin-bottom:20px;
+    height:600px;
+    transition: 0.7s;
+
+}
+
+#pricing_table .ratio{
+
+        height:170px;
+        width: 170px;
+        border:2px solid #F3C456;
+        border-radius:100%;
+        margin-left: 92px;
+        padding-top: 50px;
+        box-shadow: 1px 1px;
+        text-shadow: 1px 1px;
+        
+    }
+#pricing_table .ratio:hover{
+    background-color: #7ca5c1;
+    transition: 0.7s;
+}    
+        
+#pricing_table .btn-primary{
+    background-color: #486f77;
+        border-color: #ababab;
+        
+
+}
+        
+}
+#pricing_table .btn-primary:hover{
+        background-color: #0076bb;
+        border-color: #2d2f3c;
+        
+}
+
+/*--OUR PRICING TABLE us END--*/
+
+/*--Contuct us START--*/
+#contuct_us{
+    background-color: #7ca5c1;
+    padding:30px;
+}
+#contuct_us .help{
+    padding: 5px;
+}
+#contuct_us .form{
+    background-color: #8bb58b;
+    border: 2px solid #658465;
+    border-radius: 10%;
+    box-shadow: 2px 2px;
+    font-family:Castoro;
+    padding-top: 30px;
+}
+#contuct_us form{
+    margin:40px; 
+}
+
+.form-control{
+    background-color: #c3c3c3;
+}
+/*--Contuct us END--*/
+
+/*--Footer START--*/
+#footer{
+    
+    padding-top: 40px;
+    background-color: #383737;
+}
+#footer img{
+    height: 100px;
+    margin-left: 205px;
+}
+#footer h1{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Goldman;
+    color:#3770a9;
+    text-align: center;
+}
+#footer p{
+    color: white;
+    text-align: left;
+    padding-left: 130px;
+}
+#footer .footer_services b{
+  font-size:25px;  
+}
+#footer .footer_services{
+    color: lightgray;
+    margin-left:30px; 
+    margin-top: 80px;
+    padding-left: 60px;
+
+}
+
+#footer .col-md-4 .link_icon img{
+  height:10px;
+  margin-left: 20px;
+}
+#footer .button{
+    color: white;
+    background-color: blue;
+    padding: 2px 10px 3px;
+
+}
+/*--Footefr END--*/
+
+/*--copywrite section Start--*/
+#copywrite{
+    color:white;
+    background-color: black;
+    text-align: center;
+    padding: 2px;
+}
+
+/*--copywrite section End--*/
+
+
